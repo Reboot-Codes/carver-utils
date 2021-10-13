@@ -10,7 +10,7 @@ const options = program.opts();
 import getPage from "./commands/get-page.js"
 
 program
-  .description('An application for pizza ordering')
+  .description('a suite of utilities for reverse engineering software')
   .version(packageData.version)
 
 program

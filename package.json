@@ -1,6 +1,7 @@
 {
   "name": "carver",
   "version": "1.0.0",
+  "description": "A suite of utilities for reverse engineering software",
   "main": "src/cli.js",
   "type": "module",
   "bin": {

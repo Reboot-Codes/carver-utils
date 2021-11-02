@@ -20,7 +20,7 @@ program
   .command("get-page")
   .description("takes a screenshot and downloads the source code for the specified page")
   .argument("<website>", "required, in double quotes (just in case), webpage to download")
-  .argument("[outpath]", "optional, should exist beforehand, directory to output to")
+  .argument("[outpath]", "optional, will be created if it doesn't exist already, directory to output to")
   .addHelpText("after", `\nWarning: This command will overwrite existing files named "screenshot.png" and "source.html" in the specified directory`)
   .action((website, outpath) => getPage(website, outpath, options))
 
